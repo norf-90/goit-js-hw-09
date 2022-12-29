@@ -19,8 +19,7 @@ img {
 
 #datetime-picker {
   font-size: 30px;
-  font-family: 'Rubik Vinyl', cursive;
-
+  font-family: cursive;
   text-align: center;
   background-color: #bbbbbb;
 }
@@ -40,7 +39,7 @@ img {
 
 .value,
 .label {
-  font-family: 'Rubik Vinyl', cursive;
+  font-family: cursive;
 }
 
 .value {
@@ -52,13 +51,13 @@ img {
   font-size: 30px;
 }
 
-button[data-start] {
-  font-family: 'Rubik Vinyl', cursive;
+button {
+  font-family: cursive;
   font-size: 30px;
   background-color: rgb(69, 154, 69);
   cursor: pointer;
 }
 
-button[data-start]:disabled {
+button:disabled {
   background-color: rgb(118, 118, 118);
 }
