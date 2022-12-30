@@ -15,7 +15,6 @@ function onStartBtnClick() {
 
 function onStopBtnClick() {
   clearInterval(intervalId);
-  isStarted = false;
   refs.startBtn.disabled = false;
 }
 
