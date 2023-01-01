@@ -17,8 +17,7 @@ function onSubmit(e) {
           `✅ Fulfilled promise ${result.position} in ${result.delay}ms`
         );
         Notify.success(
-          `✅ Fulfilled promise ${result.position} in ${result.delay}ms`,
-          { timeout: 1000 }
+          `✅ Fulfilled promise ${result.position} in ${result.delay}ms`
         );
       })
       .catch(result => {
@@ -26,8 +25,7 @@ function onSubmit(e) {
           `❌ Rejected promise ${result.position} in ${result.delay}ms`
         );
         Notify.failure(
-          `❌ Rejected promise ${result.position} in ${result.delay}ms`,
-          { timeout: 1000 }
+          `❌ Rejected promise ${result.position} in ${result.delay}ms`
         );
       });
     delay += step;
